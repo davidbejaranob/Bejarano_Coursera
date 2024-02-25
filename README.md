@@ -7,3 +7,10 @@
 # software. David Bejarano is not liable for any misuse of this material. 
 # 
 ###*****************************************************************************
+
+### This is a repository created out of an existing base Coursera repo. Meant
+### to help practice how to : Write a simple programming assignment that prints
+### statistics to the command line using a variety of c-programming operators 
+## and features; Perform Compilation with GCC and execute output files from the
+### command line; Use git Version control to create a repository to version 
+### control code.
