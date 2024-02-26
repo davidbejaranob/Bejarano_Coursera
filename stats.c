@@ -46,6 +46,9 @@ void main() {
   
   // Print statistics
   print_statistics(data, length);
+  
+  // Print the sorted array
+  print_array(data, length);
 }
 
 
@@ -61,10 +64,10 @@ void main() {
 void print_statistics(unsigned char* data, unsigned int length) {
   
   printf("\nStatistics of the array:\n");
-  printf("Minimum: %d\n", find_minimum(data, length));
-  printf("Maximum: %d\n", find_maximum(data, length));
-  printf("Mean: %d\n", find_mean(data, length));
-  printf("Median: %d\n", find_median(data, length));
+  printf("- Minimum: %d\n", find_minimum(data, length));
+  printf("- Maximum: %d\n", find_maximum(data, length));
+  printf("- Mean: %d\n", find_mean(data, length));
+  printf("- Median (already sorted): %d\n\n", find_median(data, length));
 }
 
 /**
